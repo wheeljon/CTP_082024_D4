@@ -1,0 +1,109 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4997714
+    - Name: DisplayName
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+    - Name: Description
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+- Name: Color2
+  Type: BaseDataVariableType
+  DataType: Float
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../AnalogVariable1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: MenuSideVisible
+  Id: g=22e099fedbb4830eca157164f90752ad
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: AFI
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: ATI
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: AZI
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Color1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Color3
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Two
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2
+- Name: EU_COLOR
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "CLR"
+- Name: Motor
+  Id: g=aa76827793f2b6f5a64076dd5ffb1dac
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Valve
+  Id: g=e5afb0541d002ab603a074494856f2a1
+  Supertype: BaseObjectType
+- File: Motors/Motors.yaml
+- File: Valves/Valves.yaml
+- Name: RandomNumber
+  Type: BaseDataVariableType
+  DataType: Int32

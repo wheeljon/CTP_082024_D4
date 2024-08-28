@@ -1,0 +1,227 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: BIN
+  Id: g=4fcc285c4a329c479e6c39bc532c1616
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "BIN",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4fcc285c4a329c479e6c39bc532c1616",
+     "Namespace": 22
+    },
+    "Fields": [{
+      "Name": "DEST_SELECT_PER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DEST_SELECT_HMI",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DEST_UNSELECT_HMI",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DEST_SELECTED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOURCE_SELECT_HMI",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOURCE_UNSELECT_HMI",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOURCE_SELECT_PER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOURCE_SELECTED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOURCE_ADDED",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CLEAR_DEST_SELECTION",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CLEAR_SOURCE_SELECTION",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CLEAR_COMMENT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ONS_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ONS_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ONS_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ONS_4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SET_POS_LOW",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SET_POS_HIGH",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BIN_POS_HIGH",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BIN_POS_LOW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PCT",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BIN_NUM",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DISTRIBUTOR_POS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "COMMENT",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"BIN"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: CHALKBOARD_05
+  Id: g=97c2f880c1b88aa85156c53c6f37cc2c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "CHALKBOARD_05",
+    "DataType": {
+     "IdType": 2,
+     "Id": "97c2f880c1b88aa85156c53c6f37cc2c",
+     "Namespace": 22
+    },
+    "Fields": [{
+      "Name": "STATUS",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "COLOR",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "ACTIVE",
+      "DataType": {
+       "Id": 1
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [32]
+     },{
+      "Name": "NUMBER_ACTIVE",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"CHALKBOARD_05"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: CHALKBOARD_STATUS_DEFINITIONS
+  Id: g=2cff6f1e438bb40e79db23b4f0c13610
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "CHALKBOARD_STATUS_DEFINITIONS",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2cff6f1e438bb40e79db23b4f0c13610",
+     "Namespace": 22
+    },
+    "Fields": [{
+      "Name": "STATUS",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "PRIORITY",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "COLOR",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"CHALKBOARD_STATUS_DEFINITIONS"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

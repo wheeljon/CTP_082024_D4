@@ -1,0 +1,288 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: BinColorKey
+  Id: g=15ed79c101917920e71e7c6f68b6c9b0
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=3;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#fab000"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffffff"
+    - Name: Pair3
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 3
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#0fafff"
+    - Name: Pair4
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 4
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#075982"
+    - Name: Pair5
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 5
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#c2962d"
+    - Name: Pair6
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 6
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb2c"
+    - Name: Pair7
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 7
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#8f8b8b"
+    - Name: Pair8
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 8
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+    - Name: Pair9
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 9
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#3b3b3b"
+    - Name: Pair10
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 10
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#b3b3b3"
+    - Name: Pair11
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 11
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#e4e4e4"
+- Name: StringfromReal_w_Decimal
+  Id: g=c55799858f1dd3d5044fe48693b40371
+  Supertype: StringFormatter
+  Description: {"LocaleId":"en-US","Text":"0 is Value 1 is Precision, and 2 is EU"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"{0:f{1}} {2}"}
+  - Name: ns=3;Source1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=3;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=3;Source2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: Stringfrom_float_2_dec
+  Id: g=cbc437fd3e3099eacc939b5976275f79
+  Supertype: StringFormatter
+  Description: {"LocaleId":"en-US","Text":"0 is Value,  2 is EU"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"{0:f2} {2}"}
+  - Name: ns=3;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=3;Source2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: MotorStatus
+  Id: g=fa17de2363c544a79d963432c1770e98
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=3;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#8f8b8b"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00eb2c"

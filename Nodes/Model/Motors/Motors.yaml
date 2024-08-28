@@ -1,0 +1,58 @@
+Name: Motors
+Id: g=07ab32800e295fb6577482f90ad8ca31
+Type: FolderType
+Children:
+- Name: M501
+  Id: g=a70a57478352bb334d0c897897883c3c
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M502
+  Id: g=d01588e036d615410b8b4584f400dea1
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M503
+  Id: g=719a90a4383b7e5a69ed67db8ce637ca
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean

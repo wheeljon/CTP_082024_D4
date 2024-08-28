@@ -1,0 +1,25 @@
+Name: Templates
+Type: FolderType
+Children:
+- File: Popups/Popups.yaml
+- File: Banners/Banners.yaml
+- Name: ns=13;LibraryReference
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 13
+    },
+    "Body": {
+     "libraryGuid": "c4c79236877c1437a90609aa672a5379",
+     "objectGuid": "45aa24052537fd0ed8634cfbd0eef147",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }
+- File: DemoObjects/DemoObjects.yaml
+- File: MenuObjects/MenuObjects.yaml
+- File: DisplayObjects/DisplayObjects.yaml
+- File: GlobalObjects/GlobalObjects.yaml

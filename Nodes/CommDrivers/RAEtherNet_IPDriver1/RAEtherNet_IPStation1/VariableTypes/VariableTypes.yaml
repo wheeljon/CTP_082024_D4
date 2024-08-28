@@ -1,0 +1,275 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: BIN
+  Id: g=18d9f988cca22d3f6ac242ad8bc75095
+  Supertype: TagStructure
+  DataType: BIN
+  ValueRank: Any
+  Children:
+  - Name: DEST_SELECT_PER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DEST_SELECT_PER"
+  - Name: DEST_SELECT_HMI
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DEST_SELECT_HMI"
+  - Name: DEST_UNSELECT_HMI
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DEST_UNSELECT_HMI"
+  - Name: DEST_SELECTED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DEST_SELECTED"
+  - Name: SOURCE_SELECT_HMI
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SOURCE_SELECT_HMI"
+  - Name: SOURCE_UNSELECT_HMI
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SOURCE_UNSELECT_HMI"
+  - Name: SOURCE_SELECT_PER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SOURCE_SELECT_PER"
+  - Name: SOURCE_SELECTED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SOURCE_SELECTED"
+  - Name: SOURCE_ADDED
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SOURCE_ADDED"
+  - Name: CLEAR_DEST_SELECTION
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CLEAR_DEST_SELECTION"
+  - Name: CLEAR_SOURCE_SELECTION
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CLEAR_SOURCE_SELECTION"
+  - Name: CLEAR_COMMENT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CLEAR_COMMENT"
+  - Name: ONS_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ONS_1"
+  - Name: ONS_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ONS_2"
+  - Name: ONS_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ONS_3"
+  - Name: ONS_4
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ONS_4"
+  - Name: SET_POS_LOW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SET_POS_LOW"
+  - Name: SET_POS_HIGH
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SET_POS_HIGH"
+  - Name: BIN_POS_HIGH
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BIN_POS_HIGH"
+  - Name: BIN_POS_LOW
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BIN_POS_LOW"
+  - Name: PCT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PCT"
+  - Name: BIN_NUM
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BIN_NUM"
+  - Name: DISTRIBUTOR_POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DISTRIBUTOR_POS"
+  - Name: COMMENT
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COMMENT"
+- Name: CHALKBOARD_05
+  Id: g=6755e19e9175d75a9ae64aeb08562a30
+  Supertype: TagStructure
+  DataType: CHALKBOARD_05
+  ValueRank: Any
+  Children:
+  - Name: STATUS
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "STATUS"
+  - Name: COLOR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COLOR"
+  - Name: ACTIVE
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACTIVE"
+  - Name: NUMBER_ACTIVE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NUMBER_ACTIVE"
+- Name: CHALKBOARD_STATUS_DEFINITIONS
+  Id: g=b2024dfe3f037e501ff88f6d5187f2da
+  Supertype: TagStructure
+  DataType: CHALKBOARD_STATUS_DEFINITIONS
+  ValueRank: Any
+  Children:
+  - Name: STATUS
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "STATUS"
+  - Name: PRIORITY
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRIORITY"
+  - Name: COLOR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COLOR"
