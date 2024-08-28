@@ -1,2 +1,95 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=a8d9d4c989d1f8d4f3fba655e192d365
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Level
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: EnableMixer
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NewThing
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Class: Reference
+    Target: ns=33;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/CTP_082024_D4/DataStores/EmbeddedDatabase1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MyRecipes_Optional"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/CTP_082024_D4/Model/RecipeStructure"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=473d2408ec519278f192a34052c66c2e
+    Type: BaseObjectType
+    Children:
+    - Name: Level
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: EnableMixer
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NewThing
+      Type: BaseDataVariableType
+      DataType: Int32

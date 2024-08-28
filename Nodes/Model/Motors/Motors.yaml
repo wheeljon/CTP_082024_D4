@@ -9,11 +9,6 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
   - Name: Power
     Type: BaseDataVariableType
     DataType: Int32
@@ -27,11 +22,6 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
   - Name: Power
     Type: BaseDataVariableType
     DataType: Int32
@@ -45,11 +35,102 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M1
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M2
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M3
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M4
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M5
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M6
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M7
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: M8
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
   - Name: Power
     Type: BaseDataVariableType
     DataType: Int32

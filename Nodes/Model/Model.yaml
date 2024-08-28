@@ -82,17 +82,6 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
-    Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/CTP_082024_D4/Model/RandomNumber"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        ModellingRule: Optional
-        Value: 2
   - Name: Power
     Type: BaseDataVariableType
     DataType: Int32
@@ -107,3 +96,7 @@ Children:
 - Name: RandomNumber
   Type: BaseDataVariableType
   DataType: Int32
+- Name: strDebug
+  Type: BaseDataVariableType
+  DataType: String
+- File: RecipeStructure/RecipeStructure.yaml

@@ -1,59 +1,6 @@
 Name: System
 Type: SystemCategoryFolder
 Children:
-- Name: FTRemoteAccess
-  Type: FTRemoteAccess
-  Children:
-  - Name: RuntimeVersion
-    Type: BaseDataVariableType
-    DataType: String
-    AccessLevel: Read
-  - Name: ServerConnection
-    Type: BaseDataVariableType
-    DataType: ServerConnectionEnum
-    AccessLevel: Read
-  - Name: RegisteredToDomain
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-  - Name: AssistanceRequestMode
-    Type: BaseDataVariableType
-    DataType: AssistanceRequestModeEnum
-    AccessLevel: Read
-  - Name: AssistanceRequested
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-  - Name: RemoteConnectionCount
-    Type: BaseDataVariableType
-    DataType: UInt32
-    AccessLevel: Read
-  - Name: AnonymousId
-    Type: BaseDataVariableType
-    DataType: String
-    AccessLevel: Read
-  - Name: AnonymousPassword
-    Type: BaseDataVariableType
-    DataType: String
-    AccessLevel: Read
-  - Class: Reference
-    Target: ns=9;i=71
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=73
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=75
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=78
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=99
-    Direction: Forward
-  - Class: Reference
-    Target: ns=9;i=90
-    Direction: Forward
 - Name: FTOptixSystem
   Type: System
   Children:

@@ -1,2 +1,212 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=05f893d4cd6e37d3c54a04dffa6cc28a
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: Speed
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Power
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Status
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Speed1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Power1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Status1
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: Speed2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Power2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Status2
+          Type: StoreColumn
+          DataType: Boolean
+    - Name: EventLogger1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: EventType
+          Type: StoreColumn
+          DataType: NodeId
+        - Name: ReceiveTime
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: Severity
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: Time
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: AckedState_TransitionTime
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: ConfirmedState_TransitionTime
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: 'ActiveState_en-US'
+          Type: StoreColumn
+          DataType: String
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+    - Name: MyRecipes_Optional
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=23;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=23;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Level
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Speed
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /EnableMixer
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NewThing
+          Type: StoreColumn
+          DataType: Int32
+  - Class: Reference
+    Target: ns=25;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=23;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=59
+    Direction: Forward

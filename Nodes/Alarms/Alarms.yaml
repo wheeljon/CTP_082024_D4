@@ -1,3 +1,193 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=f2945bcb6451ddcdf59f6cacd42743fc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=afedecb7922506818ad1c2ca437ef3f7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=13363a5182ea4c04781518853d41828d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=4886c50e726b757934cb02f9584f1a87
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Motors/M501/Status"
+      Children:
+      - Name: Mode
+        Id: g=812e7b1fa094c45c385d46fb2a9d58db
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=d9db49bdcb3d7f15bdecdb6557fc85fe
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=eb73581fef1a8ac7e5acca13a76030e6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Motor 501 Started"}
+  - Name: AutoAcknowledge
+    Id: g=7741f2e50d637590439da261753c6de2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=76df823d7f9aa75210eb5b9cc6a919ff
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm2
+  Id: g=b22d68fc1fd9c6b453ea2556031f4a9f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=131aaf4db5847e5d878cd0a70ed31ac1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ba86a829505d2592c587fbd7c35c32ce
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d8bb6ff23326c545f95988f93c8fa7ae
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Motors/M502/Status"
+      Children:
+      - Name: Mode
+        Id: g=0cd2dfe8e927c6b93268a5c57d6016db
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=7faaf7d94f881281ce0a058abd66f71e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=33ffc1d6c7ed7acb9ed5da0a164b7dfb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Motor 502 Started"}
+  - Name: AutoAcknowledge
+    Id: g=092b7395d7641e524bc92cd81b3825dd
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=e6fb5568cc1ac298ed38c2ec36fe868f
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: DigitalAlarm3
+  Id: g=0f75615f8ee20917dbede98cd9d60a28
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=528fae331b80da077e7c3b323a7b045c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=0cbd96079861695c6224c718b1ae63f7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c951f2886472c2eb731622ea8954c0ec
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Motors/M503/Status"
+      Children:
+      - Name: Mode
+        Id: g=7821336bd4d4d6f2ab5f15ba885c7982
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1892cb75e54d1e91fe739524d6938a64
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=29;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=132
+    Direction: Forward
+  - Name: Message
+    Id: g=bd74ca723c72ec09b047b8acaa55ed87
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Motor 503 Started"}
+  - Name: AutoAcknowledge
+    Id: g=3cc2e56b8d257b2f136b3a573c91007d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5f2f847ce2eecfcd80a19eaaf59d97ba
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
