@@ -1,7 +1,7 @@
-Name: As
+Name: Day1
 Type: FolderType
 Children:
-- Name: Screen1a
+- Name: Screen1D1
   Id: g=40f83dff2b7c50f2f897b78fe9ca68f9
   Supertype: Screen
   ReferenceType: HasComponent
@@ -25,34 +25,6 @@ Children:
     - Name: Rectangle1
       Type: Rectangle
       Children:
-      - Name: SpinBox1
-        Type: SpinBox
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../ColorID"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MinColorID"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MaxColorID"
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
@@ -96,6 +68,34 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../ColorID"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MinColorID"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MaxColorID"
     - Name: ColorID
       Type: BaseDataVariableType
       DataType: Int32
@@ -133,34 +133,6 @@ Children:
     - Name: Rectangle1
       Type: Rectangle
       Children:
-      - Name: SpinBox1
-        Type: SpinBox
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../ColorID"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MinColorID"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MaxColorID"
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
@@ -204,6 +176,34 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../ColorID"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MinColorID"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MaxColorID"
     - Name: ColorID
       Type: BaseDataVariableType
       DataType: Int32
@@ -241,34 +241,6 @@ Children:
     - Name: Rectangle1
       Type: Rectangle
       Children:
-      - Name: SpinBox1
-        Type: SpinBox
-        Children:
-        - Name: Value
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../ColorID"
-        - Name: MinValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MinColorID"
-        - Name: MaxValue
-          Type: BaseDataVariableType
-          DataType: Double
-          Value: 100.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../MaxColorID"
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
@@ -312,6 +284,34 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
+      - Name: SpinBox1
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../ColorID"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MinColorID"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../MaxColorID"
     - Name: ColorID
       Type: BaseDataVariableType
       DataType: Int32
@@ -372,34 +372,6 @@ Children:
       - Name: Rectangle1
         Type: Rectangle
         Children:
-        - Name: SpinBox1
-          Type: SpinBox
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../ColorID"
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MinColorID"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MaxColorID"
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -443,6 +415,34 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
+        - Name: SpinBox1
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../ColorID"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MinColorID"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MaxColorID"
       - Name: ColorID
         Type: BaseDataVariableType
         DataType: Int32
@@ -492,34 +492,6 @@ Children:
       - Name: Rectangle1
         Type: Rectangle
         Children:
-        - Name: SpinBox1
-          Type: SpinBox
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../ColorID"
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MinColorID"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MaxColorID"
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -563,6 +535,34 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
+        - Name: SpinBox1
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../ColorID"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MinColorID"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MaxColorID"
       - Name: ColorID
         Type: BaseDataVariableType
         DataType: Int32
@@ -608,34 +608,6 @@ Children:
       - Name: Rectangle1
         Type: Rectangle
         Children:
-        - Name: SpinBox1
-          Type: SpinBox
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../ColorID"
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MinColorID"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Double
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../MaxColorID"
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
@@ -679,6 +651,34 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
+        - Name: SpinBox1
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../ColorID"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MinColorID"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../MaxColorID"
       - Name: ColorID
         Type: BaseDataVariableType
         DataType: Int32
@@ -728,7 +728,7 @@ Children:
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 3
-- Name: Screen2a
+- Name: Screen2D1
   Id: g=a987b8e3cd1c6190306d43852da98186
   Supertype: Screen
   ReferenceType: HasComponent
@@ -772,7 +772,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -812,7 +812,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -930,7 +930,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -970,7 +970,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -1088,7 +1088,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -1128,7 +1128,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -1243,7 +1243,7 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-- Name: Screen3a
+- Name: Screen3D1
   Id: g=7f8d6f35d8bfda3abe8f9438d37ebc78
   Supertype: Screen
   ReferenceType: HasComponent
@@ -1338,7 +1338,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -1378,7 +1378,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -1496,7 +1496,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -1536,7 +1536,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -1654,7 +1654,7 @@ Children:
           DataType: NodeId
           Value: "/Objects/CTP_082024_D4/Model/Motor"
       - Name: grpSpeed
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpSpeed
           Type: CircularGauge
@@ -1694,7 +1694,7 @@ Children:
             DataType: Duration
             Value: "0:00:00:10.0000000"
       - Name: grpPower
-        Type: Rectangle
+        Type: Panel
         Children:
         - Name: inpPower
           Type: SpinBox
@@ -2146,7 +2146,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-- Name: SystemATabs
+- Name: SystemD1Tabs
   Id: g=e249f176a043edf2c8ef7cdeb6742025
   Supertype: TopLevelSystem
   ReferenceType: HasComponent
@@ -2166,7 +2166,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/As/Screen1a"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day1/Screen1D1"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -2181,7 +2181,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/As/Screen2a"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day1/Screen2D1"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -2196,7 +2196,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/As/Screen3a"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day1/Screen3D1"
           Children:
           - Name: Kind
             Type: PropertyType

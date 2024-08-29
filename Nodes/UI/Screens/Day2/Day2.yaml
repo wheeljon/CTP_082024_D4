@@ -1,7 +1,7 @@
-Name: Bs
+Name: Day2
 Type: FolderType
 Children:
-- Name: Screen1b
+- Name: Screen1D2
   Id: g=5e9a824ff908d0e27639af17c91ffa3c
   Supertype: Screen
   ReferenceType: HasComponent
@@ -490,7 +490,7 @@ Children:
       DataType: SortOrderEnum
       ModellingRule: Optional
       Value: 1
-- Name: Screen2b
+- Name: Screen2D2
   Id: g=3161e8a440ece5e056278d27c5455446
   Supertype: Screen
   ReferenceType: HasComponent
@@ -2094,7 +2094,7 @@ Children:
          "highestIgnoredVersion": 0
         }
        }
-- Name: Screen3b
+- Name: Screen3D2
   Id: g=9d99512258bb99a18f7e10adda7685a4
   Supertype: Screen
   ReferenceType: HasComponent
@@ -3053,6 +3053,10 @@ Children:
               DataType: String
               ModellingRule: Optional
               Value: "n0"
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
         - Name: Speed
           Type: Panel
           Children:
@@ -3481,6 +3485,91 @@ Children:
       - Name: SelectFromDBTrigger
         Type: BaseDataVariableType
         DataType: Boolean
+      - Name: RecipeControllerCreatedAndSaved
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerCreatedAndSaved"}
+      - Name: RecipeControllerDeleted
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerDeleted"}
+      - Name: RecipeControllerEmptyRecipeName
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerEmptyRecipeName"}
+      - Name: RecipeControllerRecipe
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipe"}
+      - Name: RecipeControllerRecipeApplied
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipeApplied"}
+      - Name: RecipeControllerRecipeLoaded
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipeLoaded"}
+      - Name: RecipeControllerSaved
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerSaved"}
+      - Name: RecipesEditorRecipeSchemaNotFound
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeSchemaNotFound"}
+      - Name: RecipesEditorRecipeSchemaNotSet
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeSchemaNotSet"}
+      - Name: RecipesEditorRecipeNotFound
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeNotFound"}
+      - Name: RecipesEditorNotARecipe
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotARecipe"}
+      - Name: RecipesEditorStoreOfSchema
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorStoreOfSchema"}
+      - Name: RecipesEditorNotSet
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotSet"}
+      - Name: RecipesEditorStore
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorStore"}
+      - Name: RecipesEditorNotFound
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotFound"}
+      - Name: RecipesEditorNotAStore
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotAStore"}
+      - Name: RecipesEditorEditModelOfSchema
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        AccessLevel: Read
+        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorEditModelOfSchema"}
       - Name: ApplyFromDBTriggerTransitioned1
         Type: VariableTransitionEventDispatcher
         Children:
@@ -4305,91 +4394,6 @@ Children:
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
-      - Name: RecipeControllerCreatedAndSaved
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerCreatedAndSaved"}
-      - Name: RecipeControllerDeleted
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerDeleted"}
-      - Name: RecipeControllerEmptyRecipeName
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerEmptyRecipeName"}
-      - Name: RecipeControllerRecipe
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipe"}
-      - Name: RecipeControllerRecipeApplied
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipeApplied"}
-      - Name: RecipeControllerRecipeLoaded
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerRecipeLoaded"}
-      - Name: RecipeControllerSaved
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipeControllerSaved"}
-      - Name: RecipesEditorRecipeSchemaNotFound
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeSchemaNotFound"}
-      - Name: RecipesEditorRecipeSchemaNotSet
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeSchemaNotSet"}
-      - Name: RecipesEditorRecipeNotFound
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorRecipeNotFound"}
-      - Name: RecipesEditorNotARecipe
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotARecipe"}
-      - Name: RecipesEditorStoreOfSchema
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorStoreOfSchema"}
-      - Name: RecipesEditorNotSet
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotSet"}
-      - Name: RecipesEditorStore
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorStore"}
-      - Name: RecipesEditorNotFound
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotFound"}
-      - Name: RecipesEditorNotAStore
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorNotAStore"}
-      - Name: RecipesEditorEditModelOfSchema
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        AccessLevel: Read
-        Value: {"NamespaceIndex":22,"TextId":"RecipesEditorEditModelOfSchema"}
     - Name: RecipesEditorUISetup
       Type: NetLogic
       Children:
@@ -4426,7 +4430,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 98.0
-- Name: SystemBTabs
+- Name: SystemD2Tabs
   Id: g=70ae867ba16b7bd76888080fb43437ba
   Supertype: TopLevelSystem
   ReferenceType: HasComponent
@@ -4446,7 +4450,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/Bs/Screen1b"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day2/Screen1D2"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -4461,7 +4465,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/Bs/Screen2b"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day2/Screen2D2"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -4476,7 +4480,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/CTP_082024_D4/UI/Screens/Bs/Screen3b"
+          Value: "/Objects/CTP_082024_D4/UI/Screens/Day2/Screen3D2"
           Children:
           - Name: Kind
             Type: PropertyType

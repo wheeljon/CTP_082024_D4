@@ -3,14 +3,14 @@ Type: FolderType
 Children:
 - Name: SideMenuNavButton
   Id: g=ab8677dffb8dd34d05f721f06a9f5427
-  Supertype: Panel
+  Supertype: Rectangle
   ReferenceType: HasComponent
   Children:
   - Name: Width
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 200.0
+    Value: 250.0
   - Name: Height
     Type: BaseVariableType
     DataType: Size
@@ -105,7 +105,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{PanelLoader1}@NodeId"
+              Value: "{MainPanelLoader}@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -160,6 +160,29 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
+    - Name: ImagePath
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../ImagePath"
+    - Name: ImagePosition
+      Type: BaseDataVariableType
+      DataType: Position
+      ModellingRule: Optional
+      Value: 5
+    - Name: ImageWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -1.0
+    - Name: TextPosition
+      Type: BaseDataVariableType
+      DataType: Position
+      ModellingRule: Optional
+      Value: 3
   - Name: GotoScreen
     Type: BaseDataVariableType
     DataType: NodeId
@@ -181,9 +204,13 @@ Children:
         DataType: DynamicLinkMode
         ModellingRule: Optional
         Value: 2
+  - Name: ImagePath
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=22;%PROJECTDIR%/detail green.bmp"
 - Name: fauxButton
   Id: g=6d8de701bd5c198e2ac3022f6f9959a8
-  Supertype: Panel
+  Supertype: Rectangle
   ReferenceType: HasComponent
   Children:
   - Name: Width

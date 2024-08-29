@@ -1,2 +1,95 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: ImportAndExportAlarms
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+  - Class: Method
+    Name: ExportAlarms
+  - Name: CSVPath
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///c:/installers/myAlarms.csv"
+  - Name: CharacterSeparator
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ns=13;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 13
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "a6ee1600e16a9f4277b3724d54711be5",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: DialogCloser
+  Id: g=ffad1712fa44f5657d52d242b53c23b3
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: CloseAllDialogs
+  - Name: Screen
+    Type: BaseDataVariableType
+    DataType: Argument
+    Value: 
+     {
+      "TypeId": {
+       "Id": 258
+      },
+      "Body": {
+       "NodeId": {
+        "IdType": 0,
+        "Id": 0,
+        "Namespace": -1
+       },
+       "NodeClass": 0,
+       "BrowseName": {
+        "Name": "",
+        "Uri": -1
+       },
+       "DisplayName": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "Description": {
+        "NamespaceIndex": -1,
+        "LocaleId": "",
+        "Text": ""
+       },
+       "WriteMask": 0,
+       "UserWriteMask": 0,
+       "RolePermissions": [],
+       "UserRolePermissions": [],
+       "AccessRestrictions": 0,
+       "References": []
+      }
+     }
+- Name: DesignTimeNetLogic1
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateEventHandlers

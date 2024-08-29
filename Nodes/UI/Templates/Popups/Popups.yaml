@@ -211,3 +211,25 @@ Children:
           Type: DynamicLink
           DataType: NodePath
           Value: "../../..@NodeId"
+  - Name: Modal
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+- Name: DialogBox1
+  Id: g=bcd5640bf8eea5e0cf1ba0df4a139197
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=5;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0

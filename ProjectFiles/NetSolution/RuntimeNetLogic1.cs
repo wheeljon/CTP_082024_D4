@@ -19,7 +19,6 @@ using FTOptix.Store;
 using System.Reflection.Metadata.Ecma335;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
-using FTOptix.Recipe;
 #endregion
 
 public class RuntimeNetLogic1 : BaseNetLogic
@@ -31,12 +30,12 @@ public class RuntimeNetLogic1 : BaseNetLogic
         Random rnd = new Random();
         var randomNumberVariable = Project.Current.GetVariable("Model/RandomNumber");
         
- 
+        
         _randomNumberSubscription = Observable
             .Interval(TimeSpan.FromSeconds(1))
             .Select(_ => new Random().NextDouble() * 100)
             .Subscribe(randomNumber => randomNumberVariable.RemoteWrite(randomNumber)); 
-
+        
         var DebugString = Project.Current.GetVariable("Model/strDebug");
         DebugString.RemoteWrite(Project.Current.GetVariable(this.Owner.Children.GetVariable("typMotor/Speed").BrowseName).Value);
         var Speed = this.Owner.Children.GetVariable("typMotor/Speed");
@@ -49,16 +48,4 @@ public class RuntimeNetLogic1 : BaseNetLogic
     {
         _randomNumberSubscription.Dispose();
     }
-    
-    private void Time_VariableChange(object sender, VariableChangeEventArgs e)
-{
-        Random rnd = new Random();
-        
-        var RandomNumber = Project.Current.GetVariable("Model/RandomNumber");
-        RandomNumber.RemoteWrite(rnd.Next(100));
-  
-
-     
-       
-}
 }

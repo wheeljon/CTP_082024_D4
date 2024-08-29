@@ -16,7 +16,6 @@ using FTOptix.DataLogger;
 using FTOptix.Report;
 using FTOptix.Modbus;
 using FTOptix.System;
-using FTOptix.Recipe;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic

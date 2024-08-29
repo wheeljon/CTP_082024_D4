@@ -1,8 +1,10 @@
 Name: Screens
 Type: ScreensCategoryFolder
 Children:
-- File: As/As.yaml
-- File: Bs/Bs.yaml
+- File: Day1/Day1.yaml
+- File: Day2/Day2.yaml
+- File: Day3/Day3.yaml
+- File: Day4/Day4.yaml
 - Name: dis_Login
   Id: g=1fd3df196067745ee5af1ea69c524c76
   Supertype: Screen
@@ -296,101 +298,6 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#ffffff"
-  - Name: User Editor
-    Type: Button
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button1"}
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=3;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/UICommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: ns=3;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "OpenDialog"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: Dialog
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
-              Value: {"IdType":2,"Id":"5d72873b1c5bba072a4de840b5f04d27","Namespace":22}
-            - Name: AliasNode
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":5,"TextId":"OpenDialogAliasNodeDescription"}
-              ValueRank: ScalarOrOneDimension
-            - Name: ParentItem
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":5,"TextId":"OpenDialogParentItemDescription"}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-          - Name: OutputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: DialogNodeId
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogNodeIdDescription"}
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-    - Name: Style
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "BorderedCircular"
   - Name: ns=13;LibraryReference
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType

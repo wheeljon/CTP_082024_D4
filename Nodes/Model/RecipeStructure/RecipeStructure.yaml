@@ -3,18 +3,14 @@ Id: g=353add8d7428439a723816156bf1ad0c
 Type: FolderType
 Children:
 - Name: Level
-  Id: g=ae298c5c17dccba2c1a5788212e4795f
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Speed
-  Id: g=37361bd5aa00d04fc4a5a5531e8a7d22
   Type: BaseDataVariableType
   DataType: Int32
 - Name: EnableMixer
-  Id: g=c4838d7427133ccc0d49fa5592657615
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: NewThing
-  Id: g=567efabcb235c14bf7ccf96425b0e0d2
   Type: BaseDataVariableType
   DataType: Int32

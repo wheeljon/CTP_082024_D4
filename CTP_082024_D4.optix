@@ -137,16 +137,24 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:Report'
+   Module: FTOptix.Report
+   Version: 3.0
+  36:
+   Uri: 'urn:FTOptix:Report:Net'
+   Module: FTOptix.Report.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 7160
-  Objects: 723
-  ObjectTypes: 24
-  Variables: 6396
+  TotalNodeCount: 9691
+  Objects: 1217
+  ObjectTypes: 34
+  Variables: 8401
   VariableTypes: 3
   DataTypes: 3
-  Methods: 11
-  References: 89
+  Methods: 33
+  References: 103
   ReferenceTypes: 0
-  Files: 39
+  Files: 41
  Nodes:
  - File: Nodes/CTP_082024_D4.yaml

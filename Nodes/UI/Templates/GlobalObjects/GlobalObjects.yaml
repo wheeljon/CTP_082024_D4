@@ -3,7 +3,7 @@ Type: FolderType
 Children:
 - Name: objMotor
   Id: g=6e17d8604395f68a9820cba2a48f3723
-  Supertype: Panel
+  Supertype: Rectangle
   ReferenceType: HasComponent
   Children:
   - Name: Width
@@ -25,7 +25,7 @@ Children:
       DataType: NodeId
       Value: "/Objects/CTP_082024_D4/Model/Motor"
   - Name: grpSpeed
-    Type: Rectangle
+    Type: Panel
     Children:
     - Name: Width
       Type: BaseVariableType
@@ -37,11 +37,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 263.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 1.0
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
     - Name: inpSpeed
       Type: CircularGauge
       Children:
@@ -143,28 +148,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
     - Name: Sparkline1
       Type: Sparkline
       Children:
@@ -201,8 +184,18 @@ Children:
         ModellingRule: Optional
         Value: 111.0
   - Name: grpPower
-    Type: Rectangle
+    Type: Panel
     Children:
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -213,11 +206,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 1.0
+      Value: 2
     - Name: inpPower
       Type: SpinBox
       Children:
@@ -308,33 +301,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 2.0
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
     - Name: Sparkline1
       Type: Sparkline
       Children:
