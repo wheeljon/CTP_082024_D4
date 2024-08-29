@@ -915,8 +915,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: objMotor_M502
       Type: objMotor
       Children:
@@ -1073,8 +1071,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: objMotor_M503
       Type: objMotor
       Children:
@@ -1231,8 +1227,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1481,8 +1475,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: objMotor_M502
       Type: objMotor
       Children:
@@ -1639,8 +1631,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: objMotor_M503
       Type: objMotor
       Children:
@@ -1797,8 +1787,6 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{typMotor}@BrowseName"
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
     - Name: HorizontalGap
       Type: BaseDataVariableType
       DataType: Size

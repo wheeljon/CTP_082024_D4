@@ -15,6 +15,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M502
   Id: g=d01588e036d615410b8b4584f400dea1
   Type: Motor
@@ -28,6 +47,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M503
   Id: g=719a90a4383b7e5a69ed67db8ce637ca
   Type: Motor
@@ -41,6 +79,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M1
   Type: Motor
   Children:
@@ -53,6 +110,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M2
   Type: Motor
   Children:
@@ -65,6 +141,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M3
   Type: Motor
   Children:
@@ -77,6 +172,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M4
   Type: Motor
   Children:
@@ -89,6 +203,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M5
   Type: Motor
   Children:
@@ -101,6 +234,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M6
   Type: Motor
   Children:
@@ -113,6 +265,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M7
   Type: Motor
   Children:
@@ -125,6 +296,25 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
 - Name: M8
   Type: Motor
   Children:
@@ -137,3 +327,22 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"

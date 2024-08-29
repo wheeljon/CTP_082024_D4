@@ -271,8 +271,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 56.0
-      - Name: RuntimeNetLogic1
-        Type: NetLogic
   - Name: objMotorAlias
     Type: Alias
     DataType: NodeId

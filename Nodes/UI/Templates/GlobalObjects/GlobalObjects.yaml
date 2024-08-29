@@ -566,5 +566,3 @@ Children:
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 2
-  - Name: RuntimeNetLogic1
-    Type: NetLogic

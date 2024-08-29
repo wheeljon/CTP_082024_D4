@@ -88,6 +88,37 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: MotorSim
+    Type: NetLogic
+    Children:
+    - Name: Speed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Speed"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Power
+      Type: BaseDataVariableType
+      DataType: Int32
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../Power"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
 - Name: Valve
   Id: g=e5afb0541d002ab603a074494856f2a1
   Supertype: BaseObjectType
