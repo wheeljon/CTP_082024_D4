@@ -42,11 +42,8 @@ Children:
       }
      }
 - Name: DialogCloser
-  Id: g=ffad1712fa44f5657d52d242b53c23b3
   Type: NetLogic
   Children:
-  - Class: Method
-    Name: CloseAllDialogs
   - Name: Screen
     Type: BaseDataVariableType
     DataType: Argument
@@ -84,7 +81,7 @@ Children:
        "References": []
       }
      }
-- Name: DesignTimeNetLogic1
+- Name: DTClass
   Type: NetLogic
   Children:
   - Name: BehaviourStartPriority
@@ -92,4 +89,38 @@ Children:
     DataType: Byte
     Value: 180
   - Class: Method
-    Name: CreateEventHandlers
+    Name: CreateVar
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"aTagName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Class: Method
+    Name: CreateVars
+  - Name: NumVarsToCreate
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: BaseVarName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "AutoMadeVar"
+  - Name: DestinationFolder
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "NewTags"
+  - Name: DataTypeToCreate
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Types/DataTypes/BaseDataType/String"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      Value: 2
